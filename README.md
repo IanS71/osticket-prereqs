@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
  My very first step is to open the application "Turn Windows Features on and off" to enable Internet Information Services and CGI.
 <p>
-<h2>Installation Step 2</h2>
+<h2>Multi-file installation</h2>
 <p>
 
 From the pre-requisite installation files, I downloaded PHP Manager for IIS and Rewrite Module. I created the directory C:\PHP and unzipped the contents of PHP 7.3.8 inside. Now I can continue to successfully install VC_redist.x86.exe and MySQL 5.5.62.

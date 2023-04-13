@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095988353998000148/image.png"/>
 </p>
 <p>
- My very first step is to open the application "Turn Windows Features on and off" to enable Internet Information Services and CGI.
+My first step is to open the application "Turn Windows Features on and off" to enable Internet Information Services and CGI.
 <p>
 <h2>Multi-file installation</h2>
 <p>
@@ -49,14 +49,14 @@ From the pre-requisite installation files, I downloaded PHP Manager for IIS and 
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095995114838577242/image.png"/>
 <p>
 </p>
-I downloaded and ran a typical SQL installation. For this demonstration i'll use root as my username and a simple password. Execute MySQl Server Instance Configuration and close.
+I downloaded and ran a typical SQL installation. For this demonstration, I'll use root as my username and a simple password. Execute MySQL Server Instance Configuration and close.
 <p>
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095997028431052848/image.png"/>
 </p>
 <p>
 <h2>PHP IIS registration</h2>
 <p>
-Next step is to open up Internet Information Services as an Administrater. Open the PHP and register the C:\PHP folder that was set up prior. Reload and restart the server to apply the change that was made 
+The next step is to open up Internet Information Services as an "Administrator". Open the PHP and register the C:\PHP folder that was set up prior. Reload and restart the server to apply the change that was made. 
 </p>
 <br />
 
@@ -65,7 +65,7 @@ Next step is to open up Internet Information Services as an Administrater. Open 
 </p>
 <h2>osTicket installation</h2>
 <p>
-I will download and install the osTicket Zip file. Extract and copy the upload folder into the c:\inetpub\wwwroot and rename it to "osTicket"
+I will download and install the osTicket Zip file. Extract and copy the upload folder into the c:\inetpub\wwwroot and rename it to "osTicket".
 </p>
 <br />
 
@@ -74,7 +74,7 @@ I will download and install the osTicket Zip file. Extract and copy the upload f
 </p>
 <br />
 
-Now osTicket should be recognized by windows, i'll open up IIS and scroll down to the osTicket folder and hit "browse 80" on the right
+Now osTicket should be recognized by Windows, I'll open up IIS and scroll down to the osTicket folder and hit "browse 80" on the right.
 <p>
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1096000241678950400/image.png"/>
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1096000426433843320/image.png"/>
@@ -97,18 +97,18 @@ To smoothen out the osTicket experience, I enabled these extensions inside of th
 <p>
 <h2>HeidiSQL</h2>
 </p>
-I downloaded and installed HeidiSQL. For this demonstration i'll use username "root" and a simple password. Now to create a database called "osTicket"
+I downloaded and installed HeidiSQL. For this demonstration, I'll use the username "root" and a simple password. Now to create a database called "osTicket"
 <p>
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1096003610598441000/image.png"/>
 <p>
 <p>
 
-I browsed to the helpdesk local page to continue the set up and plugged in my made up credentials. I used the HeidiSQL database credentials to fill out the Database settings portion.
+I browsed the helpdesk local page to continue the setup and plugged in my made-up credentials. I used the HeidiSQL database credentials to fill out the Database settings portion.
 <p>
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1096003887871311912/image.png"/>
 <p>
 <h2>Completion and cleanup steps</h2>
 <p>
-Congratulations, the set up for osTicket is complete. For the final clean up I deleted osTickets "setup" file and changed "ost-config" back to read only in permissions.
+Congratulations, the setup for osTicket is complete. For the final clean up I deleted the osTicket's "setup" file and changed "ost-config" back to read only in permissions.
 
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1096004142331338792/image.png"/>

@@ -8,7 +8,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,32 +21,46 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- PHP Manager for IIS zip file
+- Rewrite Module zip file
+- PHP 7.3.8 zip file
+- VC_redist.x86.exe. zip file
+- MySQL 5.5.62 file
+- 
 
-<h2>Installation Steps</h2>
+<h2>Installation Step 1 - Internet Information Systems (IIS)</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://cdn.discordapp.com/attachments/858652485262639115/1095988353998000148/image.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open the application Turn Windows Features on and off and enable Internet Information Services and Select CGI.
+<p>
+<h2>Installation Step 2</h2>
+<p>
+
+From the pre-requisite installation files, download  PHP Manager for IIS and  Rewrite Module. Create the directory C:\PHP and unzip the contents of PHP 7.3.8 inside. Continue to successfully install VC_redist.x86.exe and MySQL 5.5.62.
+<br />
+<img src="https://cdn.discordapp.com/attachments/858652485262639115/1095996534698541177/image.png"/>
+<p>
+<img src="https://cdn.discordapp.com/attachments/858652485262639115/1095990942491750481/image.png"/>
+<p>
+<img src="https://cdn.discordapp.com/attachments/858652485262639115/1095995114838577242/image.png"/>
+<p>
+</p>
+Run a typical SQL installation and for this demonstration i'll use root as my username and a simple password. Execute MySQl Server Instance Configuration and close.
+<p>
+<img src="https://cdn.discordapp.com/attachments/858652485262639115/1095997028431052848/image.png"/>
+</p>
+<p>
+<h2>PHP IIS registration</h2>
+<p>
+Open up Internet Information Systems as an Administrater open the PHP and register the C:\PHP folder that was set up prior. Reload and restart the server to 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://cdn.discordapp.com/attachments/858652485262639115/1095998038218113034/image.png"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

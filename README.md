@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - osTicket-v1.15.8.zipz
 - HeidiSQL
 
-<h2>Installation Step 1 - Internet Information Systems (IIS)</h2>
+<h2>Installation Step 1 - Internet Information Services  (IIS)</h2>
 
 <p>
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095988353998000148/image.png"/>
@@ -56,7 +56,7 @@ I downloaded and ran a typical SQL installation. For this demonstration i'll use
 <p>
 <h2>PHP IIS registration</h2>
 <p>
-Next step is to open up Internet Information Systems as an Administrater. Open the PHP and register the C:\PHP folder that was set up prior. Reload and restart the server to apply the change that was made 
+Next step is to open up Internet Information Services as an Administrater. Open the PHP and register the C:\PHP folder that was set up prior. Reload and restart the server to apply the change that was made 
 </p>
 <br />
 

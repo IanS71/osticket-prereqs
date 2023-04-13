@@ -49,7 +49,7 @@ From the pre-requisite installation files, I downloaded PHP Manager for IIS and 
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095995114838577242/image.png"/>
 <p>
 </p>
-Run a typical SQL installation and for this demonstration i'll use root as my username and a simple password. Execute MySQl Server Instance Configuration and close.
+I downloaded and ran a typical SQL installation. For this demonstration i'll use root as my username and a simple password. Execute MySQl Server Instance Configuration and close.
 <p>
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095997028431052848/image.png"/>
 </p>

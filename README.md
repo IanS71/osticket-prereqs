@@ -35,12 +35,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095988353998000148/image.png"/>
 </p>
 <p>
- First up, open the application Turn Windows Features on and off and enable Internet Information Services and Select CGI.
+ My very first step is to open the application "Turn Windows Features on and off" to enable Internet Information Services and CGI.
 <p>
 <h2>Installation Step 2</h2>
 <p>
 
-From the pre-requisite installation files, download  PHP Manager for IIS and Rewrite Module. Create the directory C:\PHP and unzip the contents of PHP 7.3.8 inside. Continue to successfully install VC_redist.x86.exe and MySQL 5.5.62.
+From the pre-requisite installation files, I downloaded PHP Manager for IIS and Rewrite Module. I created the directory C:\PHP and unzipped the contents of PHP 7.3.8 inside. Now I can continue to successfully install VC_redist.x86.exe and MySQL 5.5.62.
 <br />
 <img src="https://cdn.discordapp.com/attachments/858652485262639115/1095996534698541177/image.png"/>
 <p>
